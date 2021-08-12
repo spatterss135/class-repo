@@ -1,0 +1,126 @@
+.left-images {
+  position: relative;
+  bottom: 80px;
+}
+.right-images {
+  position: relative;
+  bottom: 210px;
+  left:1300px;
+}
+
+
+h1 {
+    text-align: center
+}
+.page {
+background: linear-gradient(to left, #00471B,  #EEE1C6, #0077C0, #000000);
+}
+
+.image1 {
+    position: relative;
+    animation: rotation .75s linear forwards;
+}
+
+
+.image2 {
+    position: relative;
+    right:45px;
+    animation: rotation .75s forwards linear;
+    animation-delay: .75s;
+}
+
+  .image3 {
+    position: relative;
+    right:90px;
+    animation: rotation .75s forwards linear;
+    animation-delay: 1.5s;
+}
+.image4 {
+    position: relative;
+    right:135px;
+    animation: rotation .75s forwards linear;
+    animation-delay: 2.25s;
+}
+.image5 {
+    position: relative;
+    right:180px;
+    animation: rotation3 7.714s infinite linear;
+    animation-delay: 3s;
+}
+
+.image11 {
+    position: relative;
+    animation: rotation2 7.714s infinite linear;
+    animation-delay: 3s;
+    
+    
+    
+}
+
+.image21 {
+    position: relative;
+    right:45px;
+    animation: rotation1 .75s forwards linear;
+    animation-delay: 2.25s;
+    
+}
+
+  .image31 {
+    position: relative;
+    right:90px;
+    animation: rotation1 .75s forwards linear;
+    animation-delay: 1.5s;
+}
+.image41 {
+    position: relative;
+    right:135px;
+    animation: rotation1 .75s forwards linear;
+    animation-delay: .75s;
+    
+}
+.image51 {
+    position: relative;
+    right:180px;
+    animation: rotation1 .75s linear forwards;
+
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(35deg);
+    }
+  }
+  @keyframes rotation1 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-35deg);
+    }
+  }
+  @keyframes rotation2 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-359deg);
+    }
+  }
+  @keyframes rotation3 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+
+
+
+.hr1 {
+    position: relative;
+    bottom: 80px
+}
